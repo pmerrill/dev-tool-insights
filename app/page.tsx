@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <>
       <Navigation />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="w-full min-h-screen p-6 md:p-24">
         <Link href="/digitalocean">
           <div
             className="mt-6 border border-indigo-400 text-indigo-700 px-4 py-3 rounded relative"
