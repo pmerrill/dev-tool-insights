@@ -10,7 +10,7 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-gradient-to-r from-purple-700 via-purple-800 to-slate-950 p-3 border border-t-0 border-l-0 border-r-0 border-purple-950 shadow-md">
+      <nav className="flex items-center flex-wrap bg-gradient-to-r from-slate-950 to-purple-800 p-3 border border-t-0 border-l-0 border-r-0 border-purple-950 shadow-md">
         <Link href="/">
           <div className="inline-flex items-center p-2 mr-4 ">
             <svg
