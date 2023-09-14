@@ -1,12 +1,15 @@
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Navigation() {
+  const active = false;
+
+  /*
   const [active, setActive] = useState(false);
 
   const handleClick = () => {
     setActive(!active);
   };
+  */
 
   return (
     <>
@@ -35,7 +38,7 @@ export default function Navigation() {
         {/* Note that the mobile menu is set to "invisible" */}
         <button
           className="invisible inline-flex p-3 hover:bg-purple-950 rounded lg:hidden text-white ml-auto hover:text-white outline-none"
-          onClick={handleClick}
+          // onClick={handleClick}
         >
           <svg
             className="w-6 h-6"

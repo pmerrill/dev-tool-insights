@@ -15,11 +15,13 @@ export default function Page() {
           >
             <strong className="text-xl font-bold">DigitalOcean Review</strong>
             <span className="mt-2 flex">
-              DigitalOcean is a cloud hosting service that provides scalable and
-              customizable solutions for developers and businesses. Whether you
-              need a simple website, a complex application, or a
-              high-performance database, DigitalOcean has the tools and features
-              to meet your needs.
+              Learn about DigitalOcean, a cloud hosting service that provides
+              simple, affordable, and high-performance solutions for developers
+              and small to medium businesses. Read our detailed review and
+              comparison of DigitalOcean&#39;s features, advantages,
+              disadvantages, pricing, performance, security, and support. Find
+              out how you can get a $200 free credit to try DigitalOcean for 60
+              days and experience their amazing cloud hosting platform.
             </span>
             <div className="mt-4 btn rounded bg-indigo-800 p-4 inline-block text-white font-bold">
               Read Review

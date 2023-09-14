@@ -1,8 +1,13 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import Navigation from "../Navigation";
+
+export const metadata: Metadata = {
+  title: "DigitalOcean Cloud Hosting Review - Pros & Cons",
+  description:
+    "Learn about DigitalOcean, a cloud hosting service that provides simple, affordable, and high-performance solutions for developers and small to medium businesses. Read our detailed review and comparison of DigitalOcean's features, advantages, disadvantages, pricing, performance, security, and support. Find out how you can get a $200 free credit to try DigitalOcean for 60 days and experience their amazing cloud hosting platform.",
+};
 
 export default function Page() {
   const referralUrl = "https://m.do.co/c/34522ac50e49";
